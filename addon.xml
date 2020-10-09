@@ -1,8 +1,16 @@
-<?xml version="1.0" ?><addon id="repository.aussieaddons" name="Aussie Add-ons" provider-name="Aussie Add-ons" version="1.1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.aussieaddons" name="Aussie Add-ons" provider-name="Aussie Add-ons" version="1.2.0">
   <extension name="Aussie Add-ons Repository" point="xbmc.addon.repository">
-    <info compressed="false">https://aussieaddons.com/repository/addons.xml</info>
-    <checksum>https://aussieaddons.com/repository/addons.xml.md5</checksum>
-    <datadir zip="true">https://aussieaddons.com/repository/</datadir>
+    <dir minversion="1.0.0" maxversion="18.9.0">
+      <info compressed="false">https://r.aussieaddons.com/repository/leia/addons.xml</info>
+      <checksum>https://r.aussieaddons.com/repository/leia/addons.xml.md5</checksum>
+      <datadir zip="true">https://r.aussieaddons.com/repository/leia/</datadir>
+    </dir>
+    <dir minversion="18.9.701">
+      <info compressed="false">https://r.aussieaddons.com/repository/matrix/addons.xml</info>
+      <checksum>https://r.aussieaddons.com/repository/matrix/addons.xml.md5</checksum>
+      <datadir zip="true">https://r.aussieaddons.com/repository/matrix/</datadir>
+    </dir>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>Install Aussie Add-ons</summary>
